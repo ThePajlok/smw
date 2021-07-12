@@ -1,0 +1,23 @@
+{
+    "name": "open-sa-alpha",
+    "version": "0.0.1",
+    "main": "index.html",
+
+    "window": {
+        "frame": false,
+        "width": 1280,
+        "height": 720,
+        "toolbar": false,
+        "position": "center",
+        "resizable": false
+      },
+
+      "pkg": {
+        "assets": [ "*" ],
+        "targets": [ "latest-win-x64", "node10-win-x64" ]
+      },
+
+    "scripts": {
+        "start": "nw ."
+      }
+  }

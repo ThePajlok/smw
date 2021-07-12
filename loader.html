@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    html, body {
+        background-color: black;
+    }
+.loader {
+  border: 16px solid #000000;
+  border-radius: 50%;
+  border-top: 16px solid #db3434;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+  margin:0 auto;
+}
+
+.loader2 {
+  border: 16px solid #000000;
+  border-radius: 50%;
+  border-top: 16px solid #db3434;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin2 2s linear infinite; /* Safari */
+  animation: spin2 1s linear infinite;
+  margin:0 auto;
+}
+/* Safari */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(90deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin2 {
+  0% { transform: rotate(0deg); }
+  75% { transform: rotate(90deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+</head>
+<body>
+
+<div class="loader"></div>
+<div class="loader2"></div>
+</body>
+</html>

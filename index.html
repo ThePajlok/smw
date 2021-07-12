@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Alpha 0.1 - San Andreas Modification Workshop</title>
+		<meta name="description" conent="tool for gta sa (early description">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<script src="js/simple_functions.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/01e985e3a1.js" crossorigin="anonymous"></script>
+		
+	</head>
+	<body>
+		<div class="top-bar ds" id="click">
+			<div class="window-interact">
+				<p onclick="exit_app()" class="tbutton close"><i class="fas fa-times"></i></p>
+			</div>
+			<p class="title">San Andreas Modding Workshop</p>
+		</div>
+		<div class="main-header">
+			<h1>SMW</h1>
+			<div class="main-header-subtitles">
+				<h2>User friendly modding tool</h2>
+				<h3>Alpha</h3>
+			</div>
+		</div>
+		<div class="nav">
+			<button onclick="openTab('Home')" class="button-interact"><i class="fas fa-home side_i"></i><br>Home</button>
+			<button onclick="openTab('Mods')" class="button-interact"><i class="fas fa-cube side_i"></i><br>Mods</button>
+			<button onclick="openTab('Tools')" class="button-interact"><i class="fas fa-toolbox side_i"></i><br>Tools</button>
+			<button onclick="openTab('Info')" class="button-interact"><i class="far fa-question-circle side_i"></i><br>Info</button>
+			<button onclick="reloadApp()" class="button-interact"><i class="fas fa-sync-alt side_i"></i><br>RELOAD DEV</button>
+		</div>
+		<div class="content">
+			<script src="js/posts.js"></script>
+			<section class="con" id="Home">
+			</section>
+			<section style="display:none" class="con" id="Mods">
+				TEST 2
+			</section>
+			<section style="display:none" class="con" id="Tools">
+				<div class="section-header">Tools</div>
+				<div class="grid-container">
+					<div class="grid-item">1</div>
+					<div class="grid-item">2</div>
+					<div class="grid-item">3</div>  
+					<div class="grid-item">4</div>
+					<div class="grid-item">5</div>
+					<div class="grid-item">6</div>  
+					<div class="grid-item">7</div>
+					<div class="grid-item">8</div>
+					<div class="grid-item">9</div>  
+				  </div>
+			</section>
+			<section style="display:none" class="con" id="Info">
+				TEST 4
+			</section>
+		</div>
+		<script src="js/window.js"></script>
+	</body>
+</html>

@@ -1,0 +1,205 @@
+/* MAIN */
+@import "../css/grid.css"; /* grid module */
+html, body {
+    margin:0px;
+    padding:0px;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+
+   overflow: hidden;
+}
+body {
+    background-image: url(../data/images/home_background.jpg);
+    background-size: cover;
+}
+.ds {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+h1, h2, h3 {
+    margin:0px;
+    padding:0px;
+}
+::-webkit-scrollbar{
+    width: 13px;
+    height: 13px;
+    }
+    ::-webkit-scrollbar-thumb{
+    background: rgb(25,25,25);
+    border-radius: 0px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    background: #424242;
+    }
+    ::-webkit-scrollbar-track{
+    background: #696969;
+    border-radius: 10px;
+    }
+
+
+/* TITLE BAR */
+.title {
+    padding: 5px 10px;
+    font-size: 22px;
+    margin:0px;
+    width: 630px;
+    float: right;
+    font-weight: 100;
+}
+.window-interact {
+    float: right;
+    width: 630px;
+}
+p.tbutton a {
+    color:auto;
+    text-decoration: none;
+}
+p.tbutton {
+    width: 40px;
+    margin: 0px;
+    padding: 10px 10px;
+    float: right;
+    text-align: center;
+    background-color: transparent;
+    transition:0.3s;
+    color:white;
+    cursor:pointer;
+}
+p.btubbon, .minimalize:hover,.maximalize:hover {
+    background-color: rgb(65, 65, 65);
+}
+p.btubbon, .close:hover {
+    background-color: red;
+}
+
+/* GENERAL */
+.top-bar {
+    height: 36px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.main-header {
+    background: rgb(25,25,25);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+    padding-left: 10px;
+}
+.main-header h1 {
+    font-weight: 900;
+    font-size: 56px;
+    width:140px;
+    float:left;
+}
+.main-header h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+.main-header h3 {
+    font-weight: 100;
+}
+.main-header-subtitles {
+    float: left;
+    padding-top: 9px;
+}
+.nav {
+    padding: 0px;
+    margin: 0px;
+    width:150px;
+    background-color: #232323;
+    height: 100%;
+    float: left;
+}
+.button-interact {
+    color: white;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 25px 30px;
+    font-size: 16px;
+    transition:0.3s;
+}
+.side_i {
+    font-size:36px;
+    padding-bottom: 15px;
+}
+.button-interact:hover {
+    color: rgb(0, 0, 0);
+    background: white;
+}
+/* CONTENT */
+.content {
+    background-color: rgba(0,0,0,0.25);
+    width: 1130px;
+    float: right;
+    height: 100%;
+    backdrop-filter: blur(25px);
+    overflow: auto;
+}
+.con {
+    overflow: auto;
+}
+.section-header {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding:10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color:white;
+}
+.article {
+    width: 960px;
+    margin: 10px auto;
+    background-color: rgb(0 0 0 / 75%);
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.article-date {
+    font-size: 14px;
+    padding: 0px;
+    margin: 5px 0px 5px 0px;
+}
+.article-title {
+    font-size: 36px;
+    margin: 0px;
+    margin: 5px 0px 5px 0px;
+}
+.article-conetnt {
+    margin: 0px;
+}
+.item-img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.item-content {
+    position: absolute;
+    background: linear-gradient(0deg, black, transparent);
+    width: 487.19px;
+    height: 85px;
+    margin-top: 100px;
+    z-index: 1;
+    color: white;
+    font-family: 'Roboto';
+    padding-top: 65px;
+}
+.item-install {
+    font-size: 16px;
+    background: #238636;
+    padding: 5px 30px;
+    color: white;
+    font-family: 'Roboto';
+    border: 1px solid #2ea043;
+    border-radius: 6px;
+    transition:0.3s;
+}
