@@ -2,7 +2,7 @@
     "name": "open-sa-alpha",
     "version": "0.0.1",
     "main": "index.html",
-
+    
     "window": {
         "frame": true,
         "width": 1280,
